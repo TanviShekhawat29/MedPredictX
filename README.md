@@ -103,9 +103,8 @@ MedPredictX/
 git clone https://github.com/your-username/medpredictx.git
 cd medpredictx
 
-'''bash
-
 ### 2. Install Dependencies
+```bash
 pip install -r requirements.txt
 
 ### 3. Run Application
