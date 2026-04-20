@@ -73,64 +73,94 @@ The system is built with a focus on:
 
 ## 🏗️ Project Structure
 
+<pre>
 MedPredictX/
 │
 ├── backend/
-│ ├── diabetes_model.pkl
-│ ├── scaler.pkl
-│ ├── diabetes_features.pkl
-│ └── router.py
+│   ├── diabetes_model.pkl
+│   ├── scaler.pkl
+│   ├── diabetes_features.pkl
+│   └── router.py
 │
 ├── frontend/
-│ └── app.py
+│   └── app.py
 │
 ├── utils/
-│ └── preprocess_diabetes.py
+│   └── preprocess_diabetes.py
 │
 ├── data/
-│ └── diabetes.csv
+│   └── diabetes.csv
 │
 ├── requirements.txt
 └── README.md
-
+</pre>
 
 ---
 
-▶️ How to Run Locally
-1. Clone Repository
+## ▶️ How to Run Locally
+
+### 1. Clone Repository
+<pre>
 git clone https://github.com/your-username/medpredictx.git
 cd medpredictx
-2. Install Dependencies
-pip install -r requirements.txt
-3. Run Application
-streamlit run frontend/app.py
-📊 How It Works
-User inputs patient details (age, medications, hospital visits, etc.)
-Data is preprocessed and scaled
-Model predicts readmission probability
-Output is converted into:
-Risk Level
-Recommendation
-💡 Use Cases
-🏥 Hospitals → Identify high-risk patients
-👨‍⚕ Doctors → Assist in treatment planning
-📊 Healthcare analytics → Risk monitoring systems
-🎓 Academic project → Predictive modeling with real-world data
-🧠 Future Improvements
-Explainable AI (SHAP integration)
-Multi-disease prediction system
-API-based backend deployment
-Integration with hospital management systems
-👨‍💻 Author
+</pre>
 
-Tanvi Shekhawat
+### 2. Install Dependencies
+<pre>
+pip install -r requirements.txt
+</pre>
+
+### 3. Run Application
+<pre>
+streamlit run frontend/app.py
+</pre>
+
+---
+
+## 📊 How It Works
+
+- User inputs patient details (age, medications, hospital visits, etc.)
+- Data is preprocessed and scaled
+- Model predicts readmission probability
+- Output is converted into:
+  - Risk Level  
+  - Recommendation  
+
+---
+
+## 💡 Use Cases
+
+- 🏥 Hospitals → Identify high-risk patients  
+- 👨‍⚕ Doctors → Assist in treatment planning  
+- 📊 Healthcare analytics → Risk monitoring systems  
+- 🎓 Academic project → Predictive modeling with real-world data  
+
+---
+
+## 🧠 Future Improvements
+
+- Explainable AI (SHAP integration)  
+- Multi-disease prediction system  
+- API-based backend deployment  
+- Integration with hospital management systems  
+
+---
+
+## 👨‍💻 Author
+
+**Tanvi Shekhawat**  
 B.Tech (AI/ML)
 
-📜 License
+---
+
+## 📜 License
 
 This project is for academic and educational purposes.
 
-⭐ Acknowledgements
-Kaggle for dataset
-Streamlit for deployment platform
-Open-source ML community
+---
+
+## ⭐ Acknowledgements
+
+- Kaggle for dataset  
+- Streamlit for deployment platform  
+- Open-source ML community  
