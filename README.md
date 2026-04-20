@@ -103,11 +103,15 @@ MedPredictX/
 git clone https://github.com/your-username/medpredictx.git
 cd medpredictx
 
+'''bash
+
 ### 2. Install Dependencies
 pip install -r requirements.txt
 
 ### 3. Run Application
 streamlit run frontend/app.py
+
+---
 
 ## 📊 How It Works
 
@@ -118,12 +122,15 @@ Output is converted into:
 Risk Level
 Recommendation
 
+---
 ## 💡 Use Cases
 
 🏥 Hospitals → Identify high-risk patients
 👨‍⚕ Doctors → Assist in treatment planning
 📊 Healthcare analytics → Risk monitoring systems
 🎓 Academic project → Predictive modeling with real-world data
+
+---
 
 ## 🧠 Future Improvements
 
@@ -132,17 +139,25 @@ Multi-disease prediction system
 API-based backend deployment
 Integration with hospital management systems
 
+---
+
 ## 👨‍💻 Author
 
 Tanvi Shekhawat
 B.Tech (AI/ML)
 
+----
+
 ## 📜 License
 
 This project is for academic and educational purposes.
+
+---
 
 ## ⭐ Acknowledgements
 
 Kaggle for dataset
 Streamlit for deployment platform
 Open-source ML community
+
+---
